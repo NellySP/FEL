@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+  .footerWrapper {
+    flex-direction: column;
+  }
+
+  .socialMediaMobile {
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  .socialMediaMobile img {
+    background-color: beige;
+    margin: 5%;
+  }
+  .socialMedia {
+    display: none;
+  }
+
+  .serviceWrapper {
+    flex-direction: column;
+  }
+
+  .services ul {
+    display: none;
+  }
+}

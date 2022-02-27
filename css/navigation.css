@@ -1,4 +1,18 @@
+.container-fluid {
+  background: transparent;
+}
+
 nav a {
   text-decoration: none;
   color: lightgrey;
+}
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 300;
+}
+@media (max-width: 993px) {
+  .navbar-nav {
+    text-align: right;
+  }
 }
