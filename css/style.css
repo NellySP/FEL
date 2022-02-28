@@ -133,6 +133,12 @@ h2 {
   position: relative;
   overflow: hidden;
   width: 10em;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px;
+  border-style: solid;
+  width: 100%;
 }
 .scroller > span {
   position: absolute;
