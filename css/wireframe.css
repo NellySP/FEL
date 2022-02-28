@@ -1,7 +1,11 @@
-body {
-  background-color: rgb(26, 26, 26);
+* {
   margin: 0%;
   box-sizing: border-box;
+  color: #faf8f8;
+}
+
+body {
+  background-color: #23272d;
   overflow-x: hidden;
 }
 .flexParent {
@@ -10,8 +14,12 @@ body {
   width: 100vw;
 }
 
+.divider {
+  border: 5px solid #faf8f8;
+}
+
 .logo {
-  color: lightgrey;
+  color: #faf8f8;
 }
 
 nav {
@@ -21,7 +29,6 @@ nav {
 
 .hero {
   height: 80vh;
-  background-color: grey;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,20 +54,17 @@ nav {
   justify-content: center;
   width: 89vw;
   height: 400px;
-  background-color: orange;
 }
 
 .introLeft {
   width: 30%;
   height: 200px;
-  background-color: red;
   margin-right: 50px;
 }
 
 .introRight {
   width: 50%;
   height: 200px;
-  background-color: green;
 }
 
 .eyecatcher {
@@ -73,34 +77,29 @@ nav {
   flex-direction: row-reverse;
   align-items: flex-end;
   height: 500px;
-  background-color: pink;
   margin-top: 30px;
 }
 
 .projectsRight {
   width: 500px;
   height: 350px;
-  background-color: black;
   margin-right: 30px;
   margin-bottom: 10px;
 }
 
 .scroll {
   height: 300px;
-  background-color: rgb(141, 21, 165);
 }
 
 .about {
   display: flex;
   align-items: center;
   height: 500px;
-  background-color: cornflowerblue;
 }
 
 .aboutLeft {
   height: 80%;
   width: 50%;
-  background-color: yellow;
   margin-left: 30px;
 }
 
@@ -115,10 +114,8 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: azure;
 }
 .callToAction {
-  background-color: aqua;
   margin: 5px;
   right: 0%;
 }
@@ -128,19 +125,16 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  background-color: bisque;
 }
 
 .newsAndSocial {
   margin: 5%;
-  background-color: brown;
   display: flex;
   flex-direction: column;
 }
 
 .newsLetter {
   align-self: center;
-  background-color: rgb(14, 30, 179);
   margin: 5px;
 }
 
@@ -148,7 +142,6 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: beige;
   margin: 5px;
 }
 .socialMediaMobile {
@@ -161,7 +154,6 @@ nav {
 }
 
 .services {
-  background-color: green;
   margin: 5px;
 }
 

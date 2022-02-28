@@ -1,3 +1,7 @@
+footer {
+  color: #faf8f8;
+}
+
 @media screen and (max-width: 600px) {
   .footerWrapper {
     flex-direction: column;
