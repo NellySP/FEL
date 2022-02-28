@@ -4,12 +4,8 @@ footer {
 
 /* Social media icons */
 
-.socialIconsMain {
+.socialIcons {
   position: relative;
-  margin: 5px;
-}
-
-.socialIconsHover {
   margin: 5px;
 }
 
@@ -23,7 +19,7 @@ footer {
   opacity: 0;
   transition: opacity 0.2s;
 }
-.socialIconsMain:hover .socialIconsHover {
+.socialIcons:hover .socialIconsHover {
   opacity: 1;
 }
 
