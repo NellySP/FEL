@@ -4,6 +4,10 @@
   color: #faf8f8;
 }
 
+p {
+  font-family: "jura";
+}
+
 body {
   background-color: #23272d;
   overflow-x: hidden;
@@ -15,11 +19,13 @@ body {
 }
 
 .divider {
-  border: 5px solid #faf8f8;
+  border: 1px solid #faf8f8;
 }
 
 .logo {
   color: #faf8f8;
+  font-family: "Aldrich";
+  font-size: 48px;
 }
 
 nav {
@@ -35,6 +41,13 @@ nav {
 }
 
 .heroContent {
+}
+h1 {
+  font-size: 144px;
+}
+
+.purpleText {
+  color: #8237e1;
 }
 
 /* Main */

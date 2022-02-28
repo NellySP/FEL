@@ -5,6 +5,10 @@
   color: white;
 }
 
+.rollingProjects {
+  font-size: 144px;
+}
+
 #scroll-text {
   /* animation properties */
   -moz-transform: translateX(100%);
