@@ -1,4 +1,9 @@
 /*flexbox, grid general positioning goes here */
+.flexParent {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
 
 nav {
   position: absolute;
@@ -18,7 +23,7 @@ nav {
 
 /* Main */
 
-.introductionParent {
+.newsParent {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -26,25 +31,40 @@ nav {
   height: 600px;
 }
 
-.introduction {
+
+.news {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  padding-top: 10px;
   justify-content: center;
   width: 89vw;
-  height: 400px;
+  height: 394px;
   background: linear-gradient(90deg, #23272d 0%, #171b22 49.48%, #23272d 100%);
 }
 
-.introLeft {
+.newsLeft {
   width: 30%;
   height: 200px;
   margin-right: 50px;
+  align-self: center;
 }
 
-.introRight {
-  width: 50%;
-  height: 200px;
+.newsDate {
+  font-size: 40px;
+  font-family: "Jura";
+  font-weight: 600;
+  align-self: flex-end;
+  padding: 10px;
+}
+
+.newsRight {
+  width: 70%;
+  height: 91x;
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  font-family: "Jura";
+  font-weight: 600;
 }
 
 .eyecatcher {
@@ -140,25 +160,25 @@ nav {
 @media screen and (max-width: 1440px) {
 }
 @media screen and (max-width: 750px) {
-  .introductionParent {
+  .newsParent {
     flex-direction: column;
     align-items: left;
     justify-content: flex-start;
     height: auto;
   }
 
-  .introduction {
+  .news {
     flex-direction: column;
     align-items: left;
     justify-content: flex-start;
     width: 100%;
   }
 
-  .introLeft {
+  .newsLeft {
     margin-right: auto;
   }
 
-  .introRight {
+  .newsRight {
     margin-right: auto;
   }
 }
