@@ -42,8 +42,10 @@ nav {
 
 .heroContent {
 }
+
+/* ska vara storlek 144px */
 h1 {
-  font-size: 144px;
+  font-size: 50px;
 }
 
 .purpleText {
