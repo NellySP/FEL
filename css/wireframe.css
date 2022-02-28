@@ -75,6 +75,7 @@ nav {
   display: flex;
   align-items: center;
   height: 500px;
+  background: linear-gradient(90deg, #23272d 0%, #171b22 49.48%, #23272d 100%);
 }
 
 .aboutLeft {
