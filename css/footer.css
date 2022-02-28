@@ -2,6 +2,36 @@ footer {
   color: #faf8f8;
 }
 
+/* Social media icons */
+
+.socialIconsMain {
+  position: relative;
+  margin: 5px;
+}
+
+.socialIconsHover {
+  margin: 5px;
+}
+
+.socialIconsHover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.socialIconsMain:hover .socialIconsHover {
+  opacity: 1;
+}
+
+.socialIconsMain:hover {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
 /* media-queries footer */
 
 @media screen and (max-width: 600px) {

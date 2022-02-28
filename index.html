@@ -33,15 +33,12 @@
   <body>
     <div class="flexParent">
       <header>
-        <nav
-          class="navbar navbar-expand-lg navbar-dark "
-        >
+        <nav class="navbar navbar-expand-lg navbar-dark">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"
               ><div class="logo">
-               <img src="images/logo.png" alt ="Future Experience Lab">
-              </div></a
-            >
+                <img src="images/logo.png" alt="Future Experience Lab" /></div
+            ></a>
             <button
               class="navbar-toggler"
               type="button"
@@ -75,7 +72,11 @@
               <div class="purpleText">CREATE IT.</div>
             </h1>
           </div>
-          <img class="curlicue" src="images/curlicue.svg" alt="curlicue" />
+          <img
+            class="curlicue rotateClockwise"
+            src="images/curlicue.svg"
+            alt="curlicue"
+          />
         </div>
         <div class="introductionParent">
           <div class="introduction">
@@ -136,12 +137,20 @@
         <hr class="divider" />
         <div class="scroll"></div>
         <div class="about">
-          <img class="curlicue" src="images/curlicue.svg" alt="curlicue" />
+          <img
+            class="curlicue rotateClockwise"
+            src="images/curlicue.svg"
+            alt="curlicue"
+          />
           <p>
             Maecenas vitae mi at dui tincidunt sagittis eu quis magna. Fusce
             euismod scelerisque congue. Phasellus ac elit lectus.
           </p>
-          <img class="curlicue" src="images/curlicue.svg" alt="curlicue" />
+          <img
+            class="curlicue rotateAntiClockwise"
+            src="images/curlicue.svg"
+            alt="curlicue"
+          />
           <div class="aboutLeft"></div>
         </div>
       </main>
@@ -169,21 +178,42 @@
             </div>
             <!-- div hidden in mobile view -->
             <div class="socialMedia">
-              <img
-                class="socialIcons"
-                src="images/twitter.svg"
-                alt="Twitter logo"
-              />
-              <img
-                class="socialIcons"
-                src="images/instagram.svg"
-                alt="instagram logo"
-              />
-              <img
-                class="socialIcons"
-                src="images/facebook.svg"
-                alt="Facebook logo"
-              />
+              <div class="socialIcons">
+                <img
+                  class="socialIconsMain"
+                  src="images/twitter.svg"
+                  alt="Twitter logo"
+                />
+                <img
+                  class="socialIconsHover"
+                  src="images/twitterHover.svg"
+                  alt="Twitter logo"
+                />
+              </div>
+              <div class="socialIcons">
+                <img
+                  class="socialIconsMain"
+                  src="images/instagram.svg"
+                  alt="instagram logo"
+                />
+                <img
+                  class="socialIconsHover"
+                  src="images/instagramHover.svg"
+                  alt="instagram logo"
+                />
+              </div>
+              <div class="socialIcons">
+                <img
+                  class="socialIconsMain"
+                  src="images/facebook.svg"
+                  alt="Facebook logo"
+                />
+                <img
+                  class="socialIconsHover"
+                  src="images/facebookHover.svg"
+                  alt="Facebook logo"
+                />
+              </div>
             </div>
           </div>
           <div class="footerFlex">
@@ -223,17 +253,17 @@
           <!-- social media icons in mobile view, hidden in desktop view -->
           <div class="socialMediaMobile">
             <img
-              class="socialIcons"
+              class="socialIconsMain"
               src="images/twitter.svg"
               alt="Twitter logo"
             />
             <img
-              class="socialIcons"
+              class="socialIconsMain"
               src="images/instagram.svg"
               alt="instagram logo"
             />
             <img
-              class="socialIcons"
+              class="socialIconsMain"
               src="images/facebook.svg"
               alt="Facebook logo"
             />

@@ -1,8 +1,15 @@
 .heroContent {
-    margin-top: 239px;
-    margin-left: 149px;
+  margin-top: 239px;
+  margin-left: 149px;
 }
 
 .hero img {
-    height: 324px;
+  height: 324px;
+  padding-left: 100px;
+}
+
+@media screen and (max-width: 1440px) {
+  h1 {
+    font-size: 115px;
+  }
 }

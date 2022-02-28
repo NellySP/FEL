@@ -36,6 +36,12 @@ h1 {
   font-weight: 400;
 }
 
+h2 {
+  font-family: "Jura";
+  font-size: 100px;
+  font-weight: 700;
+}
+
 .purpleText {
   color: #8237e1;
   display: inline-block;
