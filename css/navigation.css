@@ -1,10 +1,17 @@
 .container-fluid {
-  background: transparent;
+  background: #23272D;
 }
 
-nav a {
+.navigation a {
   text-decoration: none;
-  color: lightgrey;
+  font-family: "Aldrich";
+  font-weight: 400;
+  font-size: 36px;
+  color: #FAF8F8;
+}
+
+.navigation a:hover{
+  color: #8237E1;
 }
 .navbar {
   position: absolute;
@@ -18,7 +25,14 @@ nav a {
   padding-bottom: 0;
 }
 @media (max-width: 993px) {
-  .navbar-nav {
+  .navbar-nav a{
     text-align: right;
   }
 }
+
+@media (min-width: 993px) {
+  .navbar-nav a{
+    padding-left: 45px;
+  }
+}
+

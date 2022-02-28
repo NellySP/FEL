@@ -1,3 +1,77 @@
+
+/* general styling, such as font sizes and colors that apply to the whole website goes here */
+
+.logo {
+  color: #faf8f8;
+  font-family: "Aldrich";
+  font-size: 48px;
+}
+
+h1 {
+  font-family: "Aldrich";
+  font-size: 144px;
+  font-weight: 400;
+}
+
+.purpleText {
+  color: #8237e1;
+  display: inline-block;
+  animation: fadeIn linear 7s;
+  -webkit-animation: fadeIn linear 7s;
+  -moz-animation: fadeIn linear 7s;
+  -o-animation: fadeIn linear 7s;
+  -ms-animation: fadeIn linear 7s;
+}
+
+/* Fade in purple text */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* scrolling text */
+
 #scroll-container {
   border-radius: 5px;
   overflow: hidden;
