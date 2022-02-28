@@ -43,13 +43,66 @@ nav {
 .heroContent {
 }
 
-/* ska vara storlek 144px */
+/* ska vara storlek 144px?  */
 h1 {
   font-size: 50px;
 }
 
 .purpleText {
   color: #8237e1;
+  display: inline-block;
+  animation: fadeIn linear 7s;
+  -webkit-animation: fadeIn linear 7s;
+  -moz-animation: fadeIn linear 7s;
+  -o-animation: fadeIn linear 7s;
+  -ms-animation: fadeIn linear 7s;
+}
+
+/* Fade in purple text */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Main */
@@ -69,6 +122,7 @@ h1 {
   justify-content: center;
   width: 89vw;
   height: 400px;
+  background: linear-gradient(90deg, #23272d 0%, #171b22 49.48%, #23272d 100%);
 }
 
 .introLeft {
