@@ -10,6 +10,12 @@ nav a {
   position: absolute;
   width: 100%;
   z-index: 300;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px;
+  border-style: solid;
+  padding-bottom: 0;
 }
 @media (max-width: 993px) {
   .navbar-nav {
