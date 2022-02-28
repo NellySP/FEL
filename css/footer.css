@@ -1,5 +1,17 @@
 footer {
-  color: #faf8f8;
+  color: 1px #faf8f8;
+}
+
+.footerButton {
+  background-color: transparent;
+  border: 1px solid #faf8f8;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.footerButton:hover {
+  background-color: #faf8f8;
+  color: black;
 }
 
 /* Social media icons */
