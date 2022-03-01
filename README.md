@@ -9,4 +9,4 @@ Vi skapar labb för att lösa olika utmaningar genom kreativ upplevelsehöjd och
 
 Samarbete mellan Digital design och Webbutvecklare från yrgo.
 
-Besök hemsidan [här!][https://future-experience-lab-2.netlify.app/]
+Besök hemsidan [här](https://future-experience-lab-2.netlify.app/)!
