@@ -156,4 +156,14 @@ footer .logo {
   .newsletter button {
     font-size: 20px;
   }
+
+  .socialIconsMain {
+    width: 55px;
+    height: 55px;
+  }
+
+  .socialIconsMobile {
+    width: 55px;
+    height: 55px;
+  }
 }
