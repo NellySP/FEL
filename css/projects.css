@@ -4,32 +4,59 @@
 
 /* projects */
 
-.projectsHeader h3 {
-  font-family: "jura";
-  font-size: 100px;
-}
+.projectWrapper img {
+  width: 640px;
+  position: absolute;
+  z-index: -1;
+  }
 
+.projectGridWrapper{
+  width: 100%;
+}
+  .projectImageWrapper{
+    align-self: center;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(10, 150px);
+    grid-template-rows: repeat(10, 130px);
+  }
+
+  .projectOneImage{
+    grid-column: 2/10;
+    grid-row: 3/10;
+    opacity: 0.5;
+  }
+
+  .projectTwoImage{
+    grid-column: 8/10;
+    grid-row: 3/10;
+    opacity: 0.5;
+  }
+
+
+  .projectThreeImage{
+    grid-column: 2/10;
+    grid-row: 3/10;
+    opacity: 0.5;
+  }
 /* Buttons inside projects section */
 
+.projectsButtons{
+  margin-right: 25px;
+}
 .bodyButton {
   background-color: transparent;
   border: none;
   padding: 10px;
   transition: 0.3s;
   border-radius: 5px;
-  font-size: 200%;
+  font-size: 60px;
 }
 
 .bodyButton:hover {
   background-color: #8237e1;
   color: #23272d;
   cursor: pointer;
-}
-
-.projectOne {
-  background-image: url("/images/prideProject.png");
-  background-size: cover;
-  background-position: center;
 }
 
 /* images inside of projects section */
@@ -50,6 +77,6 @@
   position: absolute;
 }
 
-.projects h3 {
-  position: absolute;
+.projectTitle h3 {
+  margin-top: 20px;
 }

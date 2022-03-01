@@ -33,6 +33,12 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  font-family: "Jura";
+  font-size: 70px;
+  font-weight: 600;
+}
+
 .bodyText {
   font-size: 40px;
   font-family: "Jura";
@@ -126,7 +132,7 @@ h2 {
   border-top: 0;
   border-right: 0;
   border-left: 0;
-  border-bottom: 1px;
+  border-bottom: 8px;
   border-style: solid;
   width: 100%;
 }
