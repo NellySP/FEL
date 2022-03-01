@@ -31,7 +31,6 @@ nav {
   height: 600px;
 }
 
-
 .news {
   display: flex;
   flex-direction: row;
@@ -115,6 +114,8 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-right: 1%;
+  margin-left: 1%;
 }
 .callToAction {
   margin: 5px;
