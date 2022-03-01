@@ -132,12 +132,28 @@ footer .logo {
   .desktopQuestion {
     display: none;
   }
-
+  .callToAction button {
+    font-size: 20px;
+  }
   .mobilequestionButton {
     display: block;
   }
 
   .desktopQuestionButton {
     display: none;
+  }
+
+  .services h3 {
+    font-size: 20px;
+    margin-right: 20%;
+    margin-bottom: 10%;
+  }
+
+  .newsletter p {
+    font-size: 30px;
+  }
+
+  .newsletter button {
+    font-size: 20px;
   }
 }
