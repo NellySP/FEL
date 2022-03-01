@@ -1,5 +1,6 @@
 let rotateClockwise = document.querySelectorAll(".rotateClockwise");
 let rotateAntiClockwise = document.querySelectorAll(".rotateAntiClockwise");
+const about = document.querySelector(".aboutChild");
 
 //scrolling clockwise
 
@@ -16,4 +17,10 @@ rotateAntiClockwise.forEach((anticlockwise) => {
     anticlockwise.style.transform =
       "rotate(" + window.pageYOffset / -2 + "deg)";
   });
+});
+
+document.addEventListener("scroll", () => {
+  if (window.pageYOffset > 3310) {
+    about.classList.add("fadeIn");
+  }
 });

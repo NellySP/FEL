@@ -25,7 +25,8 @@
     <link rel="stylesheet" href="css/wireframe.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/hero.css" />
-    <link rel="stylesheet" href="css/images.css" />
+    <link rel="stylesheet" href="css/news.css" />
+    <link rel="stylesheet" href="css/projects.css" />
     <link rel="stylesheet" href="css/navigation.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <title>Future Experience Lab</title>
@@ -69,21 +70,21 @@
             <h1>
               TRY THE <br />
               FUTURE AND <br />
-              <div class="purpleText">CREATE IT.</div>
+              <div class="purpleText fadeIn">CREATE IT.</div>
             </h1>
           </div>
-          <img
+          <div class="heroImage"><img
             class="curlicue rotateClockwise"
             src="images/curlicue.svg"
             alt="curlicue"
-          />
+          /></div>
         </div>
         <div class="newsParent">
           <div class="news">
             <div class="newsLeft">
               <h2>NEWS</h2>
             </div>
-            <div class="newsRight">
+            <div class="newsRight bodyText">
               <div class="newsDate">April 2022</div>
               <article>
                 I LAB01: Framtidskreatörerna utforskar vi hur åtta av Göteborgs
@@ -94,7 +95,7 @@
           </div>
         </div>
         <div class="eyecatcher">
-            <h1>Våra projekt är
+            <h2>Våra projekt är
               <div class="scroller">
                 <span>
                   Framtiden<br/>
@@ -102,75 +103,96 @@
                   Inspirerande</br>
                   En upplevelse
                 </span>
-            </h1>
+            </h2>
         </div>
         <div class="projects">
-          <h3>FEL LAB 01</h3>
-          <div class="projectsRight">
-            <img class="projectsImages" src="" alt="">
-            <p>
-              TRÄNING 1H OM DAGEN vitae mi at dui tincidunt sagittis eu quis
-              magna. Fusce euismod scelerisque congue. Phasellus ac elit lectus.
-            </p>
-            <button class="bodyButton">READ MORE</button>
+          <div class="projectsHeader">
+            <h3>FEL LAB 01</h3>
           </div>
+            <div class="projectsText">
+              <p>
+                TRÄNING 1H OM DAGEN vitae mi at dui tincidunt sagittis eu quis
+                magna. Fusce euismod scelerisque congue. Phasellus ac elit lectus.
+              </p>
+            </div>
+            <div class="projectsImagesWrapper firstImage">
+              <img class="projectsImages" src="/images/workoutProject.png" alt="Pride flag in black and white in a crowd of people.">
+            </div>
+            <div class="projectsButtons">
+              <button class="bodyButton">READ MORE</button>
+            </div>
         </div>
-        <hr class="divider" />
-        <hr class="divider" />
-        <div class="projects">
-          <h3>FEL LAB 02</h3>
-          <div class="projectsRight">
-            <img class="projectsImages" src="" alt="">
+        <div class="projects secondAndThird">
+          <div class="projectsHeader">
+            <h3>FEL LAB 02</h3>
+          </div>
+          <div class="projectsText">
             <p>
               West Pride vitae mi at dui tincidunt sagittis eu quis magna. Fusce
               euismod scelerisque congue. Phasellus ac elit lectus.
             </p>
+          </div>
+          <div class="projectsImagesWrapper secondImage">
+            <img class="projectsImages" src="/images/workoutProject.png" alt="Pride flag in black and white in a crowd of people.">
+          </div>
+          <div class="projectsButtons">
             <button class="bodyButton">READ MORE</button>
           </div>
         </div>
-        <hr class="divider" />
-        <hr class="divider" />
-        <div class="projects">
-          <h3>FEL LAB 03</h3>
-          <div class="projectsRight">
-            <img class="projectsImages" src="" alt="">
+       
+        <div class="projects secondAndThird">
+          <div class="projectsHeader">
+            <h3>FEL LAB 03</h3>
+          </div>
+          <div class="projectsText">
             <p>
               Maecenas vitae mi at dui tincidunt sagittis eu quis magna. Fusce
               euismod scelerisque congue. Phasellus ac elit lectus.
             </p>
+          </div>
+          <div class="projectsImagesWrapper thirdImage parallax">
+            <img class="projectsImages" src="/images/prideProject.png" alt="Pride flag in black and white in a crowd of people.">
+          </div>
+          <div class="projectsButtons">
             <button class="bodyButton">READ MORE</button>
           </div>
         </div>
-        <hr class="divider" />
-        <div class="scroll"></div>
-        <div class="about">
-          <img
-            class="curlicue rotateClockwise"
-            src="images/curlicue.svg"
-            alt="curlicue"
+       
+
+       <div>
+         <img
+             class="curlicue rotateClockwise"
+             src="images/curlicue.svg"
+             alt="curlicue"
           />
-          <p>
-            Maecenas vitae mi at dui tincidunt sagittis eu quis magna. Fusce
-            euismod scelerisque congue. Phasellus ac elit lectus.
-          </p>
-          <img
-            class="curlicue rotateAntiClockwise"
-            src="images/curlicue.svg"
-            alt="curlicue"
-          />
-          <div class="aboutLeft"></div>
         </div>
+
+        <div class="about bodyTextLarge">
+          <div class="aboutChild">
+            <article>Maecenas vitae mi at dui tincidunt sagittis eu quis magna. Fusce
+            euismod scelerisque congue. Phasellus ac elit lectus.</article>
+          </div></div>
+          <div class="alignRight">
+             <img
+              class="curlicue rotateAntiClockwise"
+              src="images/curlicue.svg"
+              alt="curlicue"
+            />
+        </div>
+
+        
+
       </main>
       <footer>
         <div class="logoAndQuestions">
           <div class="logo">
             <img src="images/logo.png" alt="Future Experience Lab" /></div>
           <div class="callToAction">
-            <p>Have a question?</p>
+            <span>Have a question?</span>
             <button class="footerButton">Email us!</button>
           </div>
         </div>
-        <hr class="divider" />
+        
         <div class="footerWrapper">
           <div class="newsAndSocial">
             <div class="newsletter">
@@ -221,21 +243,21 @@
           <div class="footerFlex">
             <div class="serviceWrapper">
               <div class="services">
-                <h3>Services</h3>
+                <h3>Projects</h3>
                 <ul>
-                  <li>Category</li>
-                  <li>Category</li>
-                  <li>Category</li>
-                  <li>Category</li>
-                  <li>Category</li>
+                  <li>Lab 01</li>
+                  <li>Lab 02</li>
+                  <li>Lab 03</li>
+                  <li>Lab 04</li>
+                  <li>Lab 05</li>
                 </ul>
               </div>
               <div class="services">
                 <h3>Services</h3>
                 <ul>
-                  <li>Category</li>
-                  <li>Category</li>
-                  <li>Category</li>
+                  <li>About</li>
+                  <li>Contact</li>
+                  <li>Jobs</li>
                   <li>Category</li>
                   <li>Category</li>
                 </ul>

@@ -1,5 +1,10 @@
 footer {
   color: 1px #faf8f8;
+  font-family: "jura";
+}
+
+footer .logo {
+  margin-left: 4%;
 }
 
 .footerButton {
@@ -15,7 +20,54 @@ footer {
   cursor: pointer;
 }
 
+.logoAndQuestions {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px;
+  border-style: solid;
+}
+
+.callToAction span {
+  font-size: 36px;
+}
+
+.callToAction button {
+  font-size: 36px;
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+.newsletter p {
+  font-size: 60px;
+}
+
+.newsletter button {
+  font-size: 36px;
+}
+
+.services h3 {
+  font-size: 36px;
+  margin-right: 20%;
+  margin-bottom: 10%;
+}
+
+.services ul {
+  font-size: 24px;
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+}
+
+.services li {
+  margin-bottom: 30%;
+}
+
 /* Social media icons */
+
+.socialMedia {
+  margin-left: 0%;
+}
 
 .socialIcons {
   position: relative;
@@ -28,7 +80,6 @@ footer {
   right: 0;
   left: 0;
   bottom: 0;
-  /* object-fit: contain; */
   opacity: 0;
   transition: opacity 0.2s;
 }

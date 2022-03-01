@@ -15,24 +15,6 @@ body {
   overflow-x: hidden;
 }
 
-.bodyButton {
-  background-color: transparent;
-  border: none;
-  padding: 10px;
-  transition: 0.4s;
-  border-radius: 5px;
-}
-
-.bodyButton:hover {
-  background-color: #faf8f8;
-  color: #23272d;
-  cursor: pointer;
-}
-
-.divider {
-  border: 1px solid #faf8f8;
-}
-
 .logo {
   color: #faf8f8;
   font-family: "Aldrich";
@@ -51,8 +33,25 @@ h2 {
   font-weight: 700;
 }
 
+.bodyText {
+  font-size: 40px;
+  font-family: "Jura";
+  font-weight: 600;
+}
+
+.bodyTextLarge {
+  font-family: "Jura";
+  font-size: 70px;
+  font-weight: 600;
+}
+
 .purpleText {
   color: #8237e1;
+}
+
+/* Fade in text */
+
+.fadeIn {
   display: inline-block;
   animation: fadeIn linear 7s;
   -webkit-animation: fadeIn linear 7s;
@@ -60,20 +59,6 @@ h2 {
   -o-animation: fadeIn linear 7s;
   -ms-animation: fadeIn linear 7s;
 }
-
-.newsRight{
-  font-size: 40px;
-  font-family: "Jura";
-  font-weight: 600;
-}
-
-.newsDate {
-  font-size: 40px;
-  font-family: "Jura";
-  font-weight: 600;
-}
-
-/* Fade in purple text */
 
 @keyframes fadeIn {
   0% {
@@ -120,7 +105,6 @@ h2 {
   }
 }
 
-
 .rollingProjects {
   color: FAF8F8;
   font-family: "Aldrich";
@@ -130,7 +114,6 @@ h2 {
 * {
   box-sizing: border-box;
 }
-
 
 /* Scrolling text */
 
@@ -152,7 +135,6 @@ h2 {
   top: 0;
   animation: slide 8s infinite;
   font-weight: bold;
-  
 }
 @keyframes slide {
   0% {
@@ -166,5 +148,23 @@ h2 {
   }
   75% {
     top: -3.6em;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .newsDate {
+    font-size: 20px;
+  }
+
+  .bodyText {
+    font-size: 20px;
   }
 }

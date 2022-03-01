@@ -71,36 +71,73 @@ nav {
   height: 200px;
 }
 
+/* Projects */
+
 .projects {
   display: flex;
-  flex-direction: row-reverse;
-  align-items: flex-end;
-  height: 500px;
+  align-items: center;
+  width: 100%;
+  height: 859px;
   margin-top: 30px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px;
+  border-style: solid;
 }
 
-.projectsRight {
+/* Second and third project-box */
+
+.secondAndThird {
+  border-top: 1px;
+  border-style: solid;
+}
+
+/* general project styling */
+
+.projectsHeader {
+  align-self: flex-start;
+  margin-top: 5%;
+}
+
+.projectsText {
   width: 500px;
   height: 350px;
-  margin-right: 30px;
-  margin-bottom: 10px;
+  text-align: center;
+  font-size: 70px;
 }
 
-.scroll {
-  height: 300px;
+/* projects images */
+
+.projectsImagesWrapper {
 }
+
+/* Project buttons */
+
+.projectsButtons {
+  align-self: flex-end;
+  margin-bottom: 5%;
+}
+
+/* About */
 
 .about {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  height: 500px;
+  justify-content: center;
   background: linear-gradient(90deg, #23272d 0%, #171b22 49.48%, #23272d 100%);
 }
 
-.aboutLeft {
-  height: 80%;
-  width: 50%;
-  margin-left: 30px;
+.aboutChild {
+  height: 415px;
+  width: 1134px;
+}
+
+.alignRight {
+  display: flex;
+  align-items: right;
+  justify-content: right;
 }
 
 /* Footer */
@@ -111,11 +148,10 @@ nav {
 }
 
 .logoAndQuestions {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-right: 1%;
-  margin-left: 1%;
 }
 .callToAction {
   margin: 5px;
@@ -143,8 +179,8 @@ nav {
 .socialMedia {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin: 5px;
+  justify-content: space-between;
+  margin: 70px;
 }
 .socialMediaMobile {
   display: none;
@@ -153,11 +189,18 @@ nav {
 .serviceWrapper {
   display: flex;
   justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  margin-top: 20%;
 }
 
 .services {
-  margin: 5px;
+  margin: 10px;
+  text-align: center;
 }
+
+/* Media screens */
+
 @media screen and (max-width: 1440px) {
 }
 @media screen and (max-width: 750px) {
@@ -181,5 +224,42 @@ nav {
 
   .newsRight {
     margin-right: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .newsParent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+  }
+
+  .news {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    justify-content: center;
+    width: 89vw;
+    height: 295px;
+  }
+
+  .newsLeft {
+    align-self: flex-start;
+    padding-bottom: 500px;
+  }
+
+  .newsRight {
+    position: absolute;
+    width: 90vw;
+    margin-left: 10px;
+  }
+
+  .newsRight article {
+    margin-top: 20px;
+  }
+
+  .eyecatcher {
+    margin-left: 5px;
   }
 }

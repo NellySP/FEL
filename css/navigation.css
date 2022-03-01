@@ -1,5 +1,5 @@
 .container-fluid {
-  background: #23272D;
+  background: #23272d;
 }
 
 .navigation a {
@@ -7,11 +7,11 @@
   font-family: "Aldrich";
   font-weight: 400;
   font-size: 36px;
-  color: #FAF8F8;
+  color: #faf8f8;
 }
 
-.navigation a:hover{
-  color: #8237E1;
+.navigation a:hover {
+  color: #8237e1;
 }
 .navbar {
   position: absolute;
@@ -25,14 +25,14 @@
   padding-bottom: 0;
 }
 @media (max-width: 993px) {
-  .navbar-nav a{
+  .navbar-nav a {
     text-align: right;
-  }
-}
-
-@media (min-width: 993px) {
-  .navbar-nav a{
     padding-left: 45px;
   }
 }
 
+@media (max-width: 480px) {
+  .logo img {
+    width: 70vw;
+  }
+}
