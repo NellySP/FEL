@@ -24,7 +24,7 @@
   border-style: solid;
   padding-bottom: 0;
 }
-@media (max-width: 993px) {
+@media (min-width: 993px) {
   .navbar-nav a {
     text-align: right;
     padding-left: 45px;
