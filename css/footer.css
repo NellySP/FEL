@@ -99,6 +99,10 @@ footer .logo {
   transition: opacity 0.2s;
 }
 
+.mobilequestionButton {
+  display: none;
+}
+
 /* media-queries footer */
 
 @media screen and (max-width: 600px) {
@@ -122,6 +126,18 @@ footer .logo {
   }
 
   .services ul {
+    display: none;
+  }
+
+  .desktopQuestion {
+    display: none;
+  }
+
+  .mobilequestionButton {
+    display: block;
+  }
+
+  .desktopQuestionButton {
     display: none;
   }
 }
