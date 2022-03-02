@@ -129,6 +129,9 @@ nav {
 @media screen and (max-width: 480px) {
   .aboutChild {
     width: 90vw;
+    height: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
 }
 
