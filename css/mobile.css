@@ -33,6 +33,15 @@
     height: 130px;
   }
 
+  .curlicue {
+    height: 130px;
+    width: 130px;
+  }
+
+  .projectWrapper img {
+    width: 200px;
+  }
+
   .eyecatcher {
     height: 100px;
   }
