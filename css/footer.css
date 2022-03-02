@@ -7,11 +7,16 @@ footer .logo {
   margin-left: 4%;
 }
 
+.footerWrapper {
+  margin: 0%;
+}
+
 .footerButton {
   background-color: transparent;
   border: 1px solid #faf8f8;
   border-radius: 5px;
   padding: 10px;
+  margin-top: 10px;
 }
 
 .footerButton:hover {
@@ -39,8 +44,14 @@ footer .logo {
   margin-left: 50px;
 }
 
+.socialIcons :first-child {
+  margin-right: 30px;
+}
+
 .newsletter p {
   font-size: 60px;
+  line-height: 1em;
+  margin-bottom: 20px;
 }
 
 .newsletter button {

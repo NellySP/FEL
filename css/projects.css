@@ -5,7 +5,7 @@
 /* projects */
 
 .projectWrapper img {
-  width: 640px;
+  width: 440px;
   position: absolute;
   z-index: -1;
 }
@@ -13,34 +13,18 @@
 .projectGridWrapper {
   width: 100%;
 }
-.projectImageWrapper {
-  align-self: center;
-  position: absolute;
-  display: grid;
-  grid-template-columns: repeat(10, 150px);
-  grid-template-rows: repeat(10, 130px);
-}
 
 .projectOneImage {
-  opacity: 0.5;
   margin-top: 300px;
   margin-left: 300px;
 }
 
 .projectTwoImage {
-  opacity: 0.5;
   margin-top: 300px;
   margin-left: 550px;
 }
 
 .projectThreeImage {
-  grid-column: 2/10;
-  grid-row: 3/10;
-  opacity: 0.5;
-}
-
-.projectThreeImage {
-  opacity: 0.5;
   margin-top: 300px;
   margin-left: 300px;
 }
@@ -48,15 +32,23 @@
 
 .projectsButtons {
   margin-right: 25px;
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .bodyButton {
   background-color: transparent;
   border: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
   padding: 10px;
   transition: 0.3s;
-  border-radius: 5px;
-  font-size: 60px;
+  border-radius: 3px;
+  font-family: "jura";
+  text-decoration: underline #8237e1;
+  font-size: 50px;
 }
 
 .bodyButton:hover {

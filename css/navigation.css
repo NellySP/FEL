@@ -24,6 +24,11 @@
   border-style: solid;
   padding-bottom: 0;
 }
+
+.navbar-toggler {
+  border: none;
+}
+
 @media (min-width: 993px) {
   .navbar-nav a {
     text-align: right;

@@ -5,6 +5,9 @@
   box-sizing: border-box;
   color: #faf8f8;
 }
+body {
+  max-width: 2560px;
+}
 
 p {
   font-family: "jura";
@@ -13,6 +16,10 @@ p {
 body {
   background-color: #23272d;
   overflow-x: hidden;
+}
+.line {
+  margin-top: 10px;
+  border-bottom: 8px solid;
 }
 
 .logo {
@@ -43,12 +50,14 @@ h3 {
   font-size: 40px;
   font-family: "Jura";
   font-weight: 600;
+  line-height: 1.2em;
 }
 
 .bodyTextLarge {
   font-family: "Jura";
   font-size: 70px;
   font-weight: 600;
+  line-height: 1.2em;
 }
 
 .purpleText {
@@ -59,11 +68,11 @@ h3 {
 
 .fadeIn {
   display: inline-block;
-  animation: fadeIn linear 7s;
-  -webkit-animation: fadeIn linear 7s;
-  -moz-animation: fadeIn linear 7s;
-  -o-animation: fadeIn linear 7s;
-  -ms-animation: fadeIn linear 7s;
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
 }
 
 @keyframes fadeIn {
@@ -128,12 +137,6 @@ h3 {
   line-height: 1.2em;
   position: relative;
   overflow: hidden;
-  width: 10em;
-  border-top: 0;
-  border-right: 0;
-  border-left: 0;
-  border-bottom: 8px;
-  border-style: solid;
   width: 100%;
 }
 .scroller > span {
@@ -154,23 +157,5 @@ h3 {
   }
   75% {
     top: -3.6em;
-  }
-}
-
-@media (max-width: 480px) {
-  h1 {
-    font-size: 50px;
-  }
-
-  h2 {
-    font-size: 40px;
-  }
-
-  .newsDate {
-    font-size: 20px;
-  }
-
-  .bodyText {
-    font-size: 20px;
   }
 }

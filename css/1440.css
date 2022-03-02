@@ -1,44 +1,7 @@
 @media screen and (max-width: 1440px) {
-
-  .container-fluid{
-    padding-left: 0;
-  }
-
-  .navigation a {
-    font-size: 18px;
-  }
-  .heroContent{
-    margin-left: 70px;
-    margin-top: 0;
-    
-  }
-
-  .logo {
-    font-size: 24px;
-  }
-
-  .logo img{
-    width: 100px;
-  }
-.hero h1{
-    font-size: 65px;
+  .hero h1 {
+    font-size: 130px;
     margin-left: 5px;
     padding-left: 0;
-}
-.heroImage{
-  height: 171px;
-}
-
-h1{
-font-size: 72px;
-}
-
-h2{
-font-size: 50px;
-}
-
-h3{
-font-size: 50px;
-}
-
   }
+}

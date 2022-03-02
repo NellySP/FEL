@@ -15,6 +15,12 @@
     width: 70vw;
   }
 
+  .hero h1 {
+    font-size: 50px;
+    margin-left: 5px;
+    padding-left: 0;
+  }
+
   .hero {
     height: 440px;
   }
@@ -30,7 +36,7 @@
   }
 
   .heroImage {
-    align-self: flex-end;
+    align-self: flex-start;
     position: absolute;
     padding-left: 250px;
     padding-top: 50px;
