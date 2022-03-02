@@ -22,15 +22,15 @@
 }
 
 .projectOneImage {
-  grid-column: 2/10;
-  grid-row: 3/10;
   opacity: 0.5;
+  margin-top: 300px;
+  margin-left: 300px;
 }
 
 .projectTwoImage {
-  grid-column: 8/10;
-  grid-row: 3/10;
   opacity: 0.5;
+  margin-top: 300px;
+  margin-left: 550px;
 }
 
 .projectThreeImage {
@@ -39,11 +39,17 @@
   opacity: 0.5;
 }
 
+.projectThreeImage {
+  opacity: 0.5;
+  margin-top: 300px;
+  margin-left: 300px;
+}
 /* Buttons inside projects section */
 
 .projectsButtons {
   margin-right: 25px;
 }
+
 .bodyButton {
   background-color: transparent;
   border: none;
