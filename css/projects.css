@@ -22,21 +22,22 @@
   }
 
   .projectOneImage{
-margin-top: 300px;
-margin-left: 300px;
+    opacity: 0.5;
+    margin-top: 300px;
+    margin-left: 300px;
   }
 
   .projectTwoImage{
-    grid-column: 8/10;
-    grid-row: 3/10;
     opacity: 0.5;
+    margin-top: 300px;
+    margin-left: 550px;
   }
 
 
   .projectThreeImage{
-    grid-column: 2/10;
-    grid-row: 3/10;
     opacity: 0.5;
+    margin-top: 300px;
+    margin-left: 300px;
   }
 /* Buttons inside projects section */
 

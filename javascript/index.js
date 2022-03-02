@@ -25,5 +25,5 @@ document.addEventListener("scroll", () => {
   }
 });
 
-var image = document.getElementsByClassName('thumbnail');
+var image = document.getElementsByClassName('parallax');
 new simpleParallax(image);
