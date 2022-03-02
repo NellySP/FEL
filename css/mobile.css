@@ -82,5 +82,17 @@
 
   .aboutchild {
     width: 100px;
+    height: 100%;
+  }
+
+  .projectOneImage {
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+  .projectTwoImage {
+    margin: 0%;
+  }
+  .projectThreeImage {
+    margin: 0%;
   }
 }
