@@ -143,9 +143,17 @@ footer .logo {
   .desktopQuestion {
     display: none;
   }
+
+  .callToAction {
+    margin-right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   .callToAction button {
     font-size: 15px;
     margin-left: 0%;
+    margin-right: 0%;
   }
   .mobileQuestionButton {
     display: block;
