@@ -1,6 +1,6 @@
 
 
 
-
+mobile view bilderna på plats
 Menu-items mobile ska till höger
 Ha en max-width?
