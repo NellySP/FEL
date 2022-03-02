@@ -67,7 +67,8 @@ nav {
 }
 
 .eyecatcher {
-  width: 100%;
+  display: inline;
+  width: 100vw;
   height: 200px;
   margin-left: 5px;
 }
