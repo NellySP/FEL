@@ -8,40 +8,40 @@
   width: 640px;
   position: absolute;
   z-index: -1;
-  }
+}
 
-.projectGridWrapper{
+.projectGridWrapper {
   width: 100%;
 }
-  .projectImageWrapper{
-    align-self: center;
-    position: absolute;
-    display: grid;
-    grid-template-columns: repeat(10, 150px);
-    grid-template-rows: repeat(10, 130px);
-  }
+.projectImageWrapper {
+  align-self: center;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(10, 150px);
+  grid-template-rows: repeat(10, 130px);
+}
 
-  .projectOneImage{
-    grid-column: 2/10;
-    grid-row: 3/10;
-    opacity: 0.5;
-  }
+.projectOneImage {
+  grid-column: 2/10;
+  grid-row: 3/10;
+  opacity: 0.5;
+}
 
-  .projectTwoImage{
-    grid-column: 8/10;
-    grid-row: 3/10;
-    opacity: 0.5;
-  }
+.projectTwoImage {
+  grid-column: 8/10;
+  grid-row: 3/10;
+  opacity: 0.5;
+}
 
+.projectThreeImage {
+  grid-column: 2/10;
+  grid-row: 3/10;
+  opacity: 0.5;
+}
 
-  .projectThreeImage{
-    grid-column: 2/10;
-    grid-row: 3/10;
-    opacity: 0.5;
-  }
 /* Buttons inside projects section */
 
-.projectsButtons{
+.projectsButtons {
   margin-right: 25px;
 }
 .bodyButton {
