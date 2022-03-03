@@ -87,20 +87,15 @@
     z-index: -1;
   }
 
-  .projectImageWrapper {
-    margin-bottom: 20px;
-    margin-right: 20px;
-    height: 130px;
+  .projectOneImage {
+    margin: 150px 0px 0px 120px;
   }
 
-  .projectOneImage {
-    margin: 0;
-  }
   .projectTwoImage {
-    margin: 0;
+    margin: 150px 0px 0px 120px;
   }
   .projectThreeImage {
-    margin: 0;
+    margin: 150px 0px 0px 120px;
   }
 
   .newsAndSocial {

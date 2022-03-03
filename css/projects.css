@@ -5,9 +5,13 @@
 /* projects */
 
 .projectWrapper img {
-  width: 440px;
+  width: 900px;
   position: absolute;
   z-index: -1;
+}
+
+.project {
+  height: 859px;
 }
 
 .projectGridWrapper {
@@ -15,18 +19,18 @@
 }
 
 .projectOneImage {
-  margin-top: 300px;
-  margin-left: 300px;
+  margin-top: 250px;
+  margin-left: 220px;
 }
 
 .projectTwoImage {
   margin-top: 300px;
-  margin-left: 550px;
+  margin-left: 350px;
 }
 
 .projectThreeImage {
-  margin-top: 300px;
-  margin-left: 300px;
+  margin-top: 350px;
+  margin-left: 250px;
 }
 /* Buttons inside projects section */
 
@@ -36,6 +40,7 @@
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  margin-top: 200px;
 }
 
 .bodyButton {
