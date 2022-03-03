@@ -58,10 +58,24 @@ footer .logo {
   font-size: 36px;
 }
 
+.services {
+  font-family: "jura";
+  margin-left: 20px;
+  text-align: left;
+}
+
+.serviceWrapper {
+  justify-self: flex-start;
+}
+
 .services h3 {
   font-size: 36px;
   margin-right: 20%;
   margin-bottom: 10%;
+}
+
+.services .work {
+  font-size: x-small;
 }
 
 .services ul {
