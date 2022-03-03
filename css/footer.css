@@ -178,7 +178,16 @@ footer .logo {
     font-size: 15px;
   }
 
+  .socialIcons {
+    padding: 0px;
+  }
+
   .socialIconsMain {
+    width: 55px;
+    height: 55px;
+  }
+
+  .socialIconsHover {
     width: 55px;
     height: 55px;
   }
@@ -186,5 +195,9 @@ footer .logo {
   .socialIconsMobile {
     width: 55px;
     height: 55px;
+  }
+
+  .socialIcons :first-child {
+    margin-right: 0px;
   }
 }
