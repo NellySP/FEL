@@ -43,7 +43,7 @@
     width: 130px;
   }
 
-  .projectWrapper img {
+  .rotateAntiClockwise .projectWrapper img {
     width: 200px;
   }
 
@@ -81,9 +81,16 @@
     font-size: 20px;
   }
 
+  .projectWrapper img {
+    width: 220px;
+    position: absolute;
+    z-index: -1;
+  }
+
   .projectImageWrapper {
     margin-bottom: 20px;
     margin-right: 20px;
+    height: 130px;
   }
 
   .projectOneImage {

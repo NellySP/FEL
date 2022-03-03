@@ -24,5 +24,6 @@ document.addEventListener("scroll", () => {
     about.classList.add("fadeIn");
   }
 });
-var image = document.getElementsByClassName("parallax");
+
+let image = document.getElementsByClassName("parallax");
 new simpleParallax(image);

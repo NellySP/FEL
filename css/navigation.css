@@ -40,4 +40,10 @@
   .logo img {
     width: 70vw;
   }
+
+  .navbar-nav a {
+    text-align: right;
+    padding-left: 45px;
+    font-size: 25px;
+  }
 }
