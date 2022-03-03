@@ -81,14 +81,19 @@
     font-size: 20px;
   }
 
+  .projectImageWrapper {
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+
   .projectOneImage {
-    margin: 0%;
+    margin: 40%;
   }
   .projectTwoImage {
-    margin: 0%;
+    margin: 40%;
   }
   .projectThreeImage {
-    margin: 0%;
+    margin: 40%;
   }
 
   .newsAndSocial {
