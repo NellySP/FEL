@@ -53,7 +53,7 @@
                      data-bs-target="#navbarNavAltMarkup"
                      aria-controls="navbarNavAltMarkup"
                      aria-expanded="false"
-                     aria-label="Toggle navigation"
+                     aria-label="Toggle navigation in mobile view"
                      >
                   <span class="navbar-toggler-icon"></span>
                   </button>
@@ -92,7 +92,7 @@
                   </div>
                   <div class="newsRight bodyText">
                      <div class="newsDate">April 2022</div>
-                     <article>
+                     <article aria-label="latest news">
 
                         In the spring of 2022, the students 
                         together with their clients will create 
@@ -119,8 +119,8 @@
             </div>
             <div class="line"></div>
             <div class="projectWrapper">
-               <div class="projectImageWrapper"><img class="projectOneImage parallax" src="images/workoutProject.png" alt="alt text"> </div>
-               <div class="projectTitle">
+               <div class="projectImageWrapper"><img class="projectOneImage parallax" src="images/workoutProject.png" alt="lab 1 project. a photo of dumbbells on a floor."> </div>
+               <div class="projectTitle" aria-labelledby="lab 1 title">
                   <h2>LAB <span class="purpleText"> : </span> 01</h2>
                </div>
                <div class="project">
@@ -128,24 +128,24 @@
                      <p class="bodyTextLarge">STUDENTS FROM YRGO'S EDUCATION EVENT MARKETING & MANAGEMENT WILL IN VARIOUS ASSIGNMENTS BE CHALLENGED IN DEVELOPING UNIQUE HYBRID EVENTS FOR EIGHT CLIENTS.
                      </p>
                   </div>
-                  <div class="projectsButtons"><button class="bodyButton">READ MORE</button></div>
+                  <div class="projectsButtons"><button aria-label="read more" class="bodyButton">READ MORE</button></div>
                </div>
             </div>
             <div class="projectWrapper">
-               <div class="projectImageWrapper"><img class="projectTwoImage parallax" src="images/prideProject.png" alt="alt text"> </div>
-               <div class="projectTitle">
+               <div class="projectImageWrapper"><img class="projectTwoImage parallax" src="images/prideProject.png" alt="lab 2 project. a photo of a pride flag in black and white"> </div>
+               <div class="projectTitle" aria-labelledby="lab 2 title">
                   <h2>LAB <span class="purpleText">:</span> 02</h2>
                </div>
                <div class="project">
                   <div class="projectText">
                      <p class="bodyTextLarge">WEST PRIDE, TJOLÖHOLMS SLOTT, ALFONS-ÅBERG, MOVEMENT FOR GIRLS AND SO MUCH MORE </p>
                   </div>
-                  <div class="projectsButtons"><button class="bodyButton">READ MORE</button></div>
+                  <div class="projectsButtons"><button aria-label="read more" class="bodyButton">READ MORE</button></div>
                </div>
             </div>
             <div class="projectWrapper">
-               <div class="projectImageWrapper"><img class="projectThreeImage parallax" src="images/tjoloholmProject.png" alt="alt text"> </div>
-               <div class="projectTitle">
+               <div class="projectImageWrapper"><img class="projectThreeImage parallax" src="images/tjoloholmProject.png" alt="lab 3 project. a photo of tjolöholm castle in black and white"> </div>
+               <div class="projectTitle" aria-labelledby="lab 3 title">
                   <h2>LAB<span class="purpleText"> : </span> 03</h2>
                </div>
                <div class="project">
@@ -155,7 +155,6 @@
                   <div class="projectsButtons"><button class="bodyButton">READ MORE</button></div>
                </div>
             </div>
-            <div>
                <img
                   class="curlicue rotateClockwise"
                   src="images/curlicue.svg"
@@ -183,8 +182,8 @@
                </div>
                <div class="callToAction">
                   <span class="desktopQuestion">Have a question?</span>
-                  <button class="footerButton desktopQuestionButton">Email us!</button>
-                  <button class="footerButton mobileQuestionButton">Question?</button>
+                  <button aria-label="email us" class="footerButton desktopQuestionButton">Email us!</button>
+                  <button aria-label="email us" class="footerButton mobileQuestionButton">Question?</button>
                </div>
             </div>
             <div class="footerWrapper">
@@ -198,11 +197,13 @@
                    <div class="socialMedia">
                      <div class="socialIcons">
                         <img
+                           area-label = "twitter logo that links to twitter"
                            class="socialIconsMain"
                            src="images/twitter.svg"
                            alt="Twitter logo"
                            />
                         <img
+                           area-label = "twitter logo that links to twitter"
                            class="socialIconsHover"
                            src="images/twitterHover.svg"
                            alt="Twitter logo"
@@ -210,11 +211,13 @@
                      </div>
                      <div class="socialIcons">
                         <img
+                           area-label="instagram logo that links to instagram"
                            class="socialIconsMain"
                            src="images/instagram.svg"
                            alt="instagram logo"
                            />
                         <img
+                           area-label="instagram logo that links to instagram"
                            class="socialIconsHover"
                            src="images/instagramHover.svg"
                            alt="instagram logo"
@@ -222,11 +225,13 @@
                      </div>
                      <div class="socialIcons">
                         <img
+                           area-label="facebook logo that links to facebook"
                            class="socialIconsMain"
                            src="images/facebook.svg"
                            alt="Facebook logo"
                            />
                         <img
+                           area-label="facebook logo that links to facebook"
                            class="socialIconsHover"
                            src="images/facebookHover.svg"
                            alt="Facebook logo"
@@ -264,14 +269,16 @@
                   </div>
                </div>
                 <!-- social media icons in mobile view, hidden in desktop view  -->
+                
                <div class="socialMediaMobile">
                   <div class="socialIcons">
-                     <img
+                     <img area-label = "twitter logo that links to twitter"
                         class="socialIconsMain"
                         src="images/twitter.svg"
                         alt="Twitter logo"
                         />
                      <img
+                        area-label="twitter logo that links to twitter"
                         class="socialIconsHover"
                         src="images/twitterHover.svg"
                         alt="Twitter logo"
@@ -279,11 +286,13 @@
                   </div>
                   <div class="socialIcons">
                      <img
+                        area-label="instagram logo that links to instagram"
                         class="socialIconsMain"
                         src="images/instagram.svg"
                         alt="instagram logo"
                         />
                      <img
+                        area-label="instagram logo that links to instagram"
                         class="socialIconsHover"
                         src="images/instagramHover.svg"
                         alt="instagram logo"
@@ -291,11 +300,13 @@
                   </div>
                   <div class="socialIcons">
                      <img
+                        area-label="facebook logo that links to facebook"
                         class="socialIconsMain"
                         src="images/facebook.svg"
                         alt="Facebook logo"
                         />
                      <img
+                        area-label="facebook logo that links to facebook"
                         class="socialIconsHover"
                         src="images/facebookHover.svg"
                         alt="Facebook logo"
