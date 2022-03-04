@@ -1,6 +1,7 @@
 
 
 
-mobile view bilderna på plats
-Menu-items mobile ska till höger
-Ha en max-width?
+- hosta fonter 
+- metataggar
+- mobile view
+- dela upp css-filer (städa) 

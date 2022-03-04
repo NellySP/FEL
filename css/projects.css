@@ -175,19 +175,22 @@
   }
 
   .projectOneImage {
-    margin: 150px 0px 0px 120px;
+    margin: 150px 0px 0px 20vw;
   }
 
   .projectTwoImage {
-    margin: 150px 0px 0px 120px;
+    margin: 150px 0px 0px 10vw;
   }
   .projectThreeImage {
-    margin: 150px 0px 0px 120px;
+    margin: 150px 0px 0px 20vw;
   }
   .aboutChild {
     width: 90vw;
     height: 100%;
     padding-top: 20%;
     padding-bottom: 20%;
+  }
+  .aboutCurly {
+    margin-left: 20px;
   }
 }

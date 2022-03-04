@@ -75,6 +75,7 @@ h3 {
   display: flex;
   align-items: right;
   justify-content: right;
+  margin-right: 50px;
 }
 
 /* Fade in text */

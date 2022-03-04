@@ -195,6 +195,10 @@ footer .logo {
   .newsAndSocial {
     max-width: 90vw;
   }
+
+  .logoAndQuestions .logo img {
+    width: 200px;
+  }
 }
 
 @media screen and (max-width: 600px) {

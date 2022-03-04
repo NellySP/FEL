@@ -37,18 +37,20 @@ nav {
 @media (min-width: 993px) {
   .navbar-nav a {
     text-align: right;
-    padding-left: 45px;
   }
 }
 
 @media screen and (max-width: 480px) {
   .navbar-brand .logo img {
-    width: 18px;
+    width: 20wv;
   }
 
   .navbar-nav a {
     text-align: right;
     padding-left: 45px;
     font-size: 25px;
+  }
+  .navbar {
+    padding-right: 0;
   }
 }
