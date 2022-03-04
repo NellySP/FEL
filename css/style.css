@@ -9,7 +9,9 @@
 body {
   max-width: 2560px;
   overflow-x: hidden;
+  background-color: #23272d;
 }
+
 .flexParent {
   display: flex;
   flex-direction: column;
@@ -20,10 +22,7 @@ p {
   font-family: "jura";
 }
 
-body {
-  background-color: #23272d;
-  overflow-x: hidden;
-}
+/* använder vi denna? */
 .line {
   margin-top: 10px;
   border-bottom: 8px solid;
@@ -139,9 +138,6 @@ h3 {
   font-family: "Aldrich";
   font-size: 144px;
   font-weight: 400;
-}
-* {
-  box-sizing: border-box;
 }
 
 /* Scrolling text */

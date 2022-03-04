@@ -5,7 +5,10 @@
 /* projects */
 
 .projectWrapper img {
-  width: 900px;
+  /* width: 900px; */
+  width: 80%;
+  /* margin: 5%; */
+  padding: 5%;
   position: absolute;
   z-index: -1;
 }
@@ -148,7 +151,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(90deg, #23272d 0%, #171b22 49.48%, #23272d 100%);
 }
 
 .about .bodyTextLarge {
@@ -157,6 +159,7 @@
 }
 
 .about article {
+  background: linear-gradient(90deg, #23272d 0%, #171b22 49.48%, #23272d 100%);
   padding: 5%;
 }
 
@@ -208,7 +211,7 @@
   .projectWrapper img {
     width: 220px;
     position: absolute;
-    z-index: -1;
+    /* z-index: -1; */
   }
 
   .projectOneImage {
