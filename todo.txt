@@ -1,10 +1,21 @@
 
 
 
-- hosta fonter 
-- metataggar
-- mobile view
-- dela upp css-filer (städa) 
+- hosta fonter  - klart
+- metataggar - klart
+- mobile view - klart
+- dela upp css-filer (städa) - klart
+
+- responsivitet! 
+
+avdelningar: 
+
+- header - klart (ser klart ut iaf)
+- hero - klart (ser klart ut iaf)
+- news - klart (ser klart ut iaf)
+- projects
+- "about"
+- footer
 
 480px och nedåt = helt okej
 
