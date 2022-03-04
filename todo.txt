@@ -10,9 +10,9 @@
 
 avdelningar: 
 
-- header - klart (ser klart ut iaf)
-- hero - klart (ser klart ut iaf)
-- news - klart (ser klart ut iaf)
+- header 
+- hero 
+- news 
 - projects
 - "about"
 - footer
@@ -22,3 +22,5 @@ avdelningar:
 fixa från 480 - 1440:
 
 från 1440 -> typ helt okej
+
+Höjder på alla divar måste ändras. Ändra till % eller sätta olika pixelhöjder? 

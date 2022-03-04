@@ -104,6 +104,10 @@
   justify-content: flex-end;
 }
 
+.projects button {
+  position: absolute;
+}
+
 .bodyButton {
   background-color: transparent;
   border: none;
@@ -138,10 +142,6 @@
   /* font-size: 70px; */
 }
 
-.projects button {
-  position: absolute;
-}
-
 .projectTitle h3 {
   margin-top: 20px;
 }
@@ -153,10 +153,10 @@
   justify-content: center;
 }
 
-.about .bodyTextLarge {
+/* .about .bodyTextLarge {
   width: 100%;
   padding: 5%;
-}
+} */
 
 .about article {
   background: linear-gradient(90deg, #23272d 0%, #171b22 49.48%, #23272d 100%);
