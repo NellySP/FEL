@@ -19,9 +19,10 @@
   padding-top: 60px;
 }
 
-.projectGridWrapper {
+/* .projectGridWrapper {
   width: 100%;
-}
+  används inte? 
+} */
 
 .projectOneImage {
   margin-top: 250px;
@@ -76,7 +77,9 @@
 }
 
 .projectText {
-  width: 1134px;
+  /* width: 1134px; */
+  width: 100%;
+  padding: 10%;
   position: initial;
   align-self: center;
 }
@@ -114,6 +117,7 @@
 
 .projectImages {
   position: relative;
+  width: 80vw;
 }
 
 /* Text above image in projects */
@@ -146,18 +150,20 @@
 }
 
 @media screen and (max-width: 768px) {
+  .eyecatcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 200px;
+    margin-left: 5px;
+    margin-top: 100px;
+  }
 
-.eyecatcher {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  height: 200px;
-  margin-left: 5px;
-  margin-top: 100px;
+  .bodyTextLarge {
+    font-size: 50px;
+  }
 }
-}
-
 
 @media screen and (max-width: 480px) {
   .rotateAntiClockwise .projectWrapper img {
