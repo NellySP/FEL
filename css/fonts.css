@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "aldrich";
+  src: url("/fonts/Aldrich-Regular.woff");
+  src: url("/fonts/Aldrich-Regular.woff2");
+}
+
+@font-face {
+  font-family: "jura";
+  src: url("/fonts/Jura-VariableFont_wght.woff");
+  src: url("/fonts/Jura-VariableFont_wght.woff2");
+}

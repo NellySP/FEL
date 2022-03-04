@@ -5,9 +5,15 @@
   box-sizing: border-box;
   color: #faf8f8;
 }
+
 body {
   max-width: 2560px;
   overflow-x: hidden;
+}
+.flexParent {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
 }
 
 p {
@@ -63,6 +69,12 @@ h3 {
 
 .purpleText {
   color: #8237e1;
+}
+/*align curlique right */
+.alignRight {
+  display: flex;
+  align-items: right;
+  justify-content: right;
 }
 
 /* Fade in text */
@@ -158,5 +170,29 @@ h3 {
   }
   75% {
     top: -3.6em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .purpleText {
+    width: 280px;
+  }
+
+  .curlicue {
+    height: 130px;
+    width: 130px;
+  }
+
+  .eyecatcher {
+    height: 100px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 28px;
+    margin-left: 5px;
   }
 }

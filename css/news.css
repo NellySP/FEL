@@ -1,3 +1,110 @@
 .newsRight article {
   max-width: 760px;
 }
+
+.newsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+
+.news {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  justify-content: center;
+  width: 89vw;
+  height: 394px;
+  background: linear-gradient(90deg, #23272d 0%, #171b22 49.48%, #23272d 100%);
+}
+
+.newsLeft {
+  width: 30%;
+  height: 200px;
+  margin-right: 50px;
+  align-self: center;
+}
+
+.newsDate {
+  font-size: 40px;
+  font-family: "Jura";
+  font-weight: 600;
+  align-self: flex-end;
+  padding: 10px;
+}
+
+.newsRight {
+  width: 70%;
+  height: 91x;
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  font-family: "Jura";
+  font-weight: 600;
+}
+
+@media screen and (max-width: 480px) {
+  .newsDate {
+    font-size: 20px;
+  }
+
+  .bodyText {
+    font-size: 20px;
+  }
+  .newsParent {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+  }
+
+  .news {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    justify-content: center;
+    width: 89vw;
+    height: 295px;
+  }
+
+  .newsLeft {
+    align-self: flex-start;
+    padding-bottom: 500px;
+  }
+
+  .newsRight {
+    position: absolute;
+    width: 90vw;
+    margin-left: 10px;
+  }
+
+  .newsRight article {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .newsParent {
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    height: auto;
+  }
+
+  .news {
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .newsLeft {
+    margin-right: auto;
+  }
+
+  .newsRight {
+    margin-right: auto;
+  }
+}

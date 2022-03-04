@@ -1,3 +1,8 @@
+nav {
+  position: absolute;
+  right: 0;
+}
+
 .container-fluid {
   background: #23272d;
 }
@@ -36,9 +41,9 @@
   }
 }
 
-@media (max-width: 480px) {
-  .logo img {
-    width: 70vw;
+@media screen and (max-width: 480px) {
+  .navbar-brand .logo img {
+    width: 18px;
   }
 
   .navbar-nav a {
