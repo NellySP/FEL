@@ -9,6 +9,8 @@ footer .logo {
 
 .footerWrapper {
   margin: 0%;
+  width: 100%;
+  height: 100%;
 }
 
 .footerButton {
