@@ -48,20 +48,25 @@ footer .logo {
   margin-right: 30px;
 }
 
+.newsletter {
+  padding-left: 5%;
+}
+
 .newsletter p {
-  font-size: 60px;
+  font-size: 5vw;
   line-height: 1em;
   margin-bottom: 20px;
 }
 
 .newsletter button {
-  font-size: 36px;
+  font-size: 3vw;
 }
 
 .services {
   font-family: "jura";
   margin-left: 20px;
   text-align: left;
+  width: 100%;
 }
 
 .serviceWrapper {
@@ -140,6 +145,10 @@ footer .logo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.logoAndQuestions .logo img {
+  width: 100%;
 }
 .callToAction {
   margin: 5px;
