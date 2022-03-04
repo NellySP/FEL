@@ -66,6 +66,7 @@ footer .logo {
 
 .serviceWrapper {
   justify-self: flex-start;
+  width: 100%;
 }
 
 .services h3 {
@@ -148,6 +149,14 @@ footer .logo {
 
   .serviceWrapper {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services h3 {
+    justify-self: center;
+    text-align: center;
+    margin-left: 65px;
   }
 
   .services ul {
