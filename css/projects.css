@@ -144,9 +144,19 @@
   background: linear-gradient(90deg, #23272d 0%, #171b22 49.48%, #23272d 100%);
 }
 
+.about .bodyTextLarge {
+  width: 100%;
+  padding: 5%;
+}
+
+.about article {
+  padding: 5%;
+}
+
 .aboutChild {
   height: 415px;
-  width: 1134px;
+  width: 100%;
+  /* width: 1134px; */
 }
 
 @media screen and (max-width: 768px) {
