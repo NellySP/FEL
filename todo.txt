@@ -5,3 +5,9 @@
 - metataggar
 - mobile view
 - dela upp css-filer (städa) 
+
+480px och nedåt = helt okej
+
+fixa från 480 - 1440:
+
+från 1440 -> typ helt okej
