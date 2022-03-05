@@ -5,8 +5,7 @@
 /* projects */
 
 .projectWrapper img {
-  /* width: 900px; */
-  width: 80%;
+  width: 60%;
   /* margin: 5%; */
   padding: 5%;
   position: absolute;
@@ -118,7 +117,7 @@
   border-radius: 3px;
   font-family: "jura";
   text-decoration: underline #8237e1;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .bodyButton:hover {
@@ -167,6 +166,17 @@
   height: 415px;
   width: 100%;
   /* width: 1134px; */
+}
+
+@media screen and (max-width: 1440px) {
+
+  .projectText{
+    padding: 0;
+  }
+
+  .bodyButton {
+    font-size: 50px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -225,21 +235,21 @@
     flex-direction: row;
     height: 200px;
     margin-left: 5px;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .projectWrapper img {
-    width: 70%;
+    width: 80%;
   }
 
   .projectOneImage {
     margin-top: 250px;
-    margin-left: 15vw;
+    margin-left: 10vw;
   }
   
   .projectTwoImage {
     margin-top: 250px;
-    margin-left: 15vw;
+    margin-left: 10vw;
   }
   
   .projectThreeImage {
@@ -280,8 +290,13 @@
     padding: 0px;
   }
 
+  .eyecatcher {
+    height: 90%;
+
+  }
+
   .projectWrapper img {
-    width: 220px;
+    width: 80%;
     position: absolute;
     /* z-index: -1; */
   }
@@ -299,8 +314,8 @@
   .aboutChild {
     width: 90vw;
     height: 100%;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
   }
   .aboutCurly {
     margin-left: 20px;

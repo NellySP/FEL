@@ -226,6 +226,19 @@ footer .logo {
   }
 }
 
+@media screen and (max-width: 1440px) {
+  .services h3 {
+    margin: 0;
+    padding-right: 2em;
+  }
+  .serviceWrapper{
+    width: 600px;
+  }
+  .services ul {
+    font-size: 18px;
+  }
+}
+
 /* Mobile view */
 
 @media screen and (max-width: 760px) {

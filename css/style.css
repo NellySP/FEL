@@ -173,6 +173,12 @@ h3 {
   }
 }
 
+@media screen and (max-width: 1440px) {
+  h3 {
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 1024px) {
 
   h1 {
@@ -228,6 +234,7 @@ h3 {
 
   .eyecatcher {
     height: 100px;
+    margin-top: 0;
   }
 
   h2 {
