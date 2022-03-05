@@ -215,12 +215,18 @@ h3 {
   }
   
   .bodyText {
-    font-size: 30px;
+    font-size: 35px;
   }
   
   .bodyTextLarge {
-    font-size: 5vw;
+    font-size: 45px;
   }
+}
+
+@media screen and (max-width: 748px) {
+  .bodyTextLarge {
+    font-size: 35px;
+  } 
 }
 @media screen and (max-width: 480px) {
   .purpleText {

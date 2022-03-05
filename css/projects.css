@@ -269,6 +269,12 @@
   .aboutChild{
     height: 250px;
   }
+.projectText{
+  padding: 0;
+}
+.bodyButton{
+  font-size: 40px;
+}
 }
 
 @media screen and (max-width: 480px) {
