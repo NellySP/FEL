@@ -172,7 +172,28 @@ h3 {
     top: -3.6em;
   }
 }
+@media screen and (max-width: 768px) {
 
+  h2{
+    font-size: 75px;
+  }
+
+  h1 {
+    font-size: 144px;
+  }
+  
+  h3 {
+    font-weight: 600;
+  }
+  
+  .bodyText {
+    font-size: 30px;
+  }
+  
+  .bodyTextLarge {
+    font-size: 40px;
+  }
+}
 @media screen and (max-width: 480px) {
   .purpleText {
     width: 280px;

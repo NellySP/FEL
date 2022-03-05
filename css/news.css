@@ -91,7 +91,7 @@
   }
 
   .bodyText {
-    font-size: 20px;
+    font-size: 35px;
   }
   .newsParent {
     flex-direction: column;
@@ -111,7 +111,7 @@
   .newsLeft {
     align-self: flex-start;
     display: inline-block;
-    padding-top: 2px;
+    padding-top: 14px;
 
   }
 
