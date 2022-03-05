@@ -216,7 +216,19 @@ footer .logo {
   .services {
     margin-left: 10%;
   }
+
+  .socialMediaMobile {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  .socialMedia {
+    display: none;
+  }
 }
+
+/* Mobile view */
 
 @media screen and (max-width: 600px) {
   .footerWrapper {
