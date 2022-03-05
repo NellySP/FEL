@@ -15,7 +15,7 @@ avdelningar:
 - news 
 - projects
 - "about"
-- footer
+- footer - KLAR!
 
 480px och nedåt = helt okej
 
