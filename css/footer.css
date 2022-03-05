@@ -231,9 +231,10 @@ footer .logo {
 @media screen and (max-width: 1440px) {
   .services h3 {
     margin: 0;
-    padding-right: 2em;
+    /* Gör denna något? för mig gör den bara allt lite snett! */
+    /* padding-right: 2em; */
   }
-  .serviceWrapper{
+  .serviceWrapper {
     width: 600px;
   }
   .services ul {
