@@ -48,7 +48,7 @@ footer .logo {
 }
 
 .socialIcons :first-child {
-  /* margin-right: 30px; */
+  margin-right: 3.8vw;
 }
 
 .newsletter {
@@ -75,6 +75,7 @@ footer .logo {
 .serviceWrapper {
   justify-self: flex-start;
   width: 100%;
+  justify-content: space-evenly;
 }
 
 .services h3 {
@@ -166,9 +167,9 @@ footer .logo {
 .newsAndSocial {
   width: 100%;
   height: 100%;
-  /* margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 10%; */
+  margin-left: 5%;
+  /* margin-right: 5%; */
+  /* margin-top: 10%; */
   display: flex;
   flex-direction: column;
   max-width: 90vw;
@@ -178,8 +179,7 @@ footer .logo {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  /* margin-top: 70px;
-  margin: 100px; */
+  margin-top: 70px;
 }
 .socialMediaMobile {
   display: none;
@@ -198,7 +198,7 @@ footer .logo {
   width: 100%;
   height: 100%;
   /* margin: 10px; */
-  text-align: center;
+  /* text-align: center; */
 }
 /* media-queries footer */
 @media screen and (max-width: 480px) {
@@ -215,6 +215,7 @@ footer .logo {
   }
   .services {
     margin-left: 10%;
+    margin-right: 5%;
   }
 
   .socialMediaMobile {
@@ -230,7 +231,7 @@ footer .logo {
 
 /* Mobile view */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 760px) {
   .footerWrapper {
     flex-direction: column;
   }
@@ -255,7 +256,7 @@ footer .logo {
   .services h3 {
     justify-self: center;
     text-align: center;
-    margin-left: 65px;
+    font-size: xx-large;
   }
 
   .services ul {
