@@ -227,15 +227,19 @@ footer .logo {
     flex-direction: column;
   }
 
+  .services {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .services ul {
+    display: none;
+  }
   .socialMediaMobile {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-evenly;
-  }
-
-  .socialMedia {
-    display: none;
   }
 
   .serviceWrapper {
@@ -247,11 +251,9 @@ footer .logo {
   .services h3 {
     justify-self: center;
     text-align: center;
-    font-size: xx-large;
-  }
-
-  .services ul {
-    display: none;
+    font-size: 5vw;
+    margin-right: 0%;
+    margin-bottom: 10%;
   }
 
   .desktopQuestion {
@@ -278,12 +280,6 @@ footer .logo {
     background-color: aliceblue;
   }
 
-  .services h3 {
-    font-size: 20px;
-    margin-right: 0%;
-    margin-bottom: 10%;
-  }
-
   .newsletter p {
     font-size: 28px;
     align-self: center;
@@ -291,6 +287,10 @@ footer .logo {
 
   .newsletter button {
     font-size: 15px;
+  }
+
+  .socialMedia {
+    display: none;
   }
 
   .socialIcons {
