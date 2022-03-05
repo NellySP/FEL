@@ -1,6 +1,8 @@
 footer {
   color: 1px #faf8f8;
   font-family: "jura";
+  width: 100%;
+  height: 100%;
 }
 
 footer .logo {
