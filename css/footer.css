@@ -8,6 +8,7 @@ footer .logo {
 }
 
 .footerWrapper {
+  display: flex;
   margin: 0%;
   width: 100%;
   height: 100%;
@@ -17,8 +18,8 @@ footer .logo {
   background-color: transparent;
   border: 1px solid #faf8f8;
   border-radius: 5px;
-  padding: 10px;
-  margin-top: 10px;
+  padding: 1.2vh;
+  margin-top: 1.2vh;
 }
 
 .footerButton:hover {
@@ -37,17 +38,17 @@ footer .logo {
 }
 
 .callToAction span {
-  font-size: 36px;
+  font-size: 4.5vh;
 }
 
 .callToAction button {
-  font-size: 36px;
-  margin-right: 100px;
-  margin-left: 50px;
+  font-size: 4.5vh;
+  /* margin-right: 100px;
+  margin-left: 50px; */
 }
 
 .socialIcons :first-child {
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
 
 .newsletter {
@@ -57,7 +58,7 @@ footer .logo {
 .newsletter p {
   font-size: 5vw;
   line-height: 1em;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .newsletter button {
@@ -66,7 +67,7 @@ footer .logo {
 
 .services {
   font-family: "jura";
-  margin-left: 20px;
+  /* margin-left: 20px; */
   text-align: left;
   width: 100%;
 }
@@ -77,17 +78,14 @@ footer .logo {
 }
 
 .services h3 {
-  font-size: 36px;
+  text-align: left;
+  font-size: 4vh;
   margin-right: 20%;
   margin-bottom: 10%;
 }
 
-.services .work {
-  font-size: x-small;
-}
-
 .services ul {
-  font-size: 24px;
+  font-size: 3vh;
   list-style-type: none;
   text-align: left;
   padding: 0;
@@ -110,7 +108,7 @@ footer .logo {
 
 .socialIcons {
   position: relative;
-  margin: 5px;
+  margin: 0.5vw;
 }
 
 .socialIconsHover {
@@ -153,7 +151,7 @@ footer .logo {
   width: 100%;
 }
 .callToAction {
-  margin: 5px;
+  margin: 0.5vw;
   right: 0%;
 }
 .footerFlex {
@@ -168,19 +166,20 @@ footer .logo {
 .newsAndSocial {
   width: 100%;
   height: 100%;
-  margin-left: 5%;
+  /* margin-left: 5%;
   margin-right: 5%;
-  margin-top: 10%;
+  margin-top: 10%; */
   display: flex;
   flex-direction: column;
+  max-width: 90vw;
 }
 
 .socialMedia {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  margin-top: 70px;
-  margin: 100px;
+  /* margin-top: 70px;
+  margin: 100px; */
 }
 .socialMediaMobile {
   display: none;
@@ -191,14 +190,14 @@ footer .logo {
   justify-content: space-evenly;
   height: 100%;
   width: 100%;
-  margin-top: 20%;
-  margin-right: 20%;
+  /* margin-top: 20%;
+  margin-right: 20%; */
 }
 
 .services {
   width: 100%;
   height: 100%;
-  margin: 10px;
+  /* margin: 10px; */
   text-align: center;
 }
 /* media-queries footer */
@@ -206,14 +205,30 @@ footer .logo {
   .newsAndSocial {
     max-width: 90vw;
   }
+  .logoAndQuestions .logo img {
+    width: 20wv;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .footerWrapper {
+    flex-direction: column;
+  }
+  .services {
+    margin-left: 10%;
+  }
 
-  @media screen and (max-width: 480px) {
-    .logoAndQuestions .logo img {
-      width: 20wv;
-    }
+  .socialMediaMobile {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+  .socialMedia {
+    display: none;
   }
 }
 
+/* Mobile view */
 
 @media screen and (max-width: 600px) {
   .footerWrapper {
