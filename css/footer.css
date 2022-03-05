@@ -201,6 +201,10 @@ footer .logo {
   .logoAndQuestions .logo img {
     width: 20wv;
   }
+
+  .footerButton {
+    padding: 1.5vw;
+  }
 }
 @media screen and (max-width: 1020px) {
   .footerWrapper {
@@ -289,6 +293,10 @@ footer .logo {
 
   .newsletter button {
     font-size: 15px;
+  }
+
+  .footerButton {
+    padding: 1.5vw;
   }
 
   .socialMedia {
