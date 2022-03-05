@@ -172,14 +172,15 @@ h3 {
     top: -3.6em;
   }
 }
-@media screen and (max-width: 768px) {
 
-  h2{
-    font-size: 75px;
-  }
+@media screen and (max-width: 1024px) {
 
   h1 {
     font-size: 144px;
+  }
+
+  h2{
+    font-size: 75px;
   }
   
   h3 {
@@ -191,7 +192,28 @@ h3 {
   }
   
   .bodyTextLarge {
-    font-size: 40px;
+    font-size: 5vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 144px;
+  }
+
+  h2{
+    font-size: 75px;
+  }
+  
+  h3 {
+    font-weight: 600;
+  }
+  
+  .bodyText {
+    font-size: 30px;
+  }
+  
+  .bodyTextLarge {
+    font-size: 5vw;
   }
 }
 @media screen and (max-width: 480px) {
@@ -216,4 +238,12 @@ h3 {
     font-size: 28px;
     margin-left: 5px;
   }
+  .bodyText {
+    font-size: 7vw;
+  }
+  
+  .bodyTextLarge {
+    font-size: 8vw;
+  }
+
 }

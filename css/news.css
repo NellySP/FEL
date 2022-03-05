@@ -50,9 +50,6 @@
     font-size: 20px;
   }
 
-  .bodyText {
-    font-size: 20px;
-  }
   .newsParent {
     flex-direction: column;
     align-items: center;
@@ -89,10 +86,7 @@
   .newsDate {
     font-size: 20px;
   }
-
-  .bodyText {
-    font-size: 35px;
-  }
+´
   .newsParent {
     flex-direction: column;
     align-items: center;
