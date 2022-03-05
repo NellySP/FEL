@@ -43,12 +43,10 @@ footer .logo {
 
 .callToAction button {
   font-size: 4.5vh;
-  /* margin-right: 100px;
-  margin-left: 50px; */
 }
 
 .socialIcons :first-child {
-  /* margin-right: 30px; */
+  margin-right: 3.8vw;
 }
 
 .newsletter {
@@ -58,7 +56,6 @@ footer .logo {
 .newsletter p {
   font-size: 5vw;
   line-height: 1em;
-  /* margin-bottom: 20px; */
 }
 
 .newsletter button {
@@ -67,7 +64,6 @@ footer .logo {
 
 .services {
   font-family: "jura";
-  /* margin-left: 20px; */
   text-align: left;
   width: 100%;
 }
@@ -75,6 +71,7 @@ footer .logo {
 .serviceWrapper {
   justify-self: flex-start;
   width: 100%;
+  justify-content: space-evenly;
 }
 
 .services h3 {
@@ -166,9 +163,7 @@ footer .logo {
 .newsAndSocial {
   width: 100%;
   height: 100%;
-  /* margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 10%; */
+  margin-left: 5%;
   display: flex;
   flex-direction: column;
   max-width: 90vw;
@@ -178,8 +173,7 @@ footer .logo {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  /* margin-top: 70px;
-  margin: 100px; */
+  margin-top: 70px;
 }
 .socialMediaMobile {
   display: none;
@@ -190,15 +184,12 @@ footer .logo {
   justify-content: space-evenly;
   height: 100%;
   width: 100%;
-  /* margin-top: 20%;
-  margin-right: 20%; */
 }
 
 .services {
   width: 100%;
   height: 100%;
-  /* margin: 10px; */
-  text-align: center;
+  padding-top: 6%;
 }
 /* media-queries footer */
 @media screen and (max-width: 480px) {
@@ -215,6 +206,7 @@ footer .logo {
   }
   .services {
     margin-left: 10%;
+    margin-right: 5%;
   }
 
   .socialMediaMobile {
@@ -230,20 +222,24 @@ footer .logo {
 
 /* Mobile view */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 760px) {
   .footerWrapper {
     flex-direction: column;
   }
 
+  .services {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .services ul {
+    display: none;
+  }
   .socialMediaMobile {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-evenly;
-  }
-
-  .socialMedia {
-    display: none;
   }
 
   .serviceWrapper {
@@ -255,11 +251,9 @@ footer .logo {
   .services h3 {
     justify-self: center;
     text-align: center;
-    margin-left: 65px;
-  }
-
-  .services ul {
-    display: none;
+    font-size: 5vw;
+    margin-right: 0%;
+    margin-bottom: 10%;
   }
 
   .desktopQuestion {
@@ -286,12 +280,6 @@ footer .logo {
     background-color: aliceblue;
   }
 
-  .services h3 {
-    font-size: 20px;
-    margin-right: 0%;
-    margin-bottom: 10%;
-  }
-
   .newsletter p {
     font-size: 28px;
     align-self: center;
@@ -299,6 +287,10 @@ footer .logo {
 
   .newsletter button {
     font-size: 15px;
+  }
+
+  .socialMedia {
+    display: none;
   }
 
   .socialIcons {
