@@ -5,10 +5,13 @@
   box-sizing: border-box;
   color: #faf8f8;
 }
+html, body {
+  overflow-x: hidden;
+}
 
 body {
   max-width: 2560px;
-  overflow-x: hidden;
+  position: relative;
   background-color: #23272d;
 }
 

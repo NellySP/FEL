@@ -183,6 +183,25 @@
   .bodyTextLarge {
     font-size: 50px;
   }
+
+  .projectWrapper img {
+    width: 70%;
+  }
+
+  .projectOneImage {
+    margin-top: 250px;
+    margin-left: 15vw;
+  }
+  
+  .projectTwoImage {
+    margin-top: 250px;
+    margin-left: 15vw;
+  }
+  
+  .projectThreeImage {
+    margin-top: 350px;
+    margin-left: 15vw;
+  }
 }
 
 @media screen and (max-width: 480px) {
